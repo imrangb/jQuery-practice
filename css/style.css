@@ -1,0 +1,169 @@
+.wrapper{
+}
+
+.our-content {
+    background: #a1a1a1;
+    text-align: center;
+    height: 500px;
+}
+.our-content:last-child{
+    height: auto;
+}
+
+
+.fox-1, .fox-2,.fox-3, 
+.fox-4, .fox-5,.fox-6, 
+.fox-7,.fox-8, .fox-9,
+.fox-10 {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 50px 10px;
+    position:relative;
+    cursor: pointer;
+}
+
+.fox-1, .fox-6 {
+    background: #f10000;
+}
+
+.fox-2, .fox-7 {
+    background: #000;
+}
+.fox-3, .fox-8 {
+    background: #111;
+}
+.fox-4, .fox-9 {
+    background: #333;
+}
+.fox-5, .fox-10 {
+    background: #c2c0c0;
+}
+
+
+
+
+/* ======== */
+
+.fox-6,.fox-7,.fox-8,.fox-9, .fox-10 {
+    display: table;
+    margin:  0 auto;
+    display: none;
+}
+
+
+.our-content p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+/* jquery css */
+
+.fox-6.dhaka{
+    background: #000;
+}
+
+p.check{
+    opacity: 0;
+    color: #fff;
+}
+
+p.check.dhaka {
+    opacity: 1;
+}
+
+
+
+
+
+/* =================== */
+.wrapper-two{
+    position: relative;
+}
+
+.my-class{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -150px;
+}
+.my-class-two {
+   display: table; 
+   height: 300px;
+   width: 300px;
+   background: #282923;
+   margin: 0 auto;
+   position: relative;
+
+}
+.my-class-two p {
+    color: #fff;
+    text-align: center;
+    line-height: 300px;
+    text-transform: capitalize;
+}
+
+.my-class-two .inner-one p, .my-class-two .inner-two p {
+    line-height: 50px;
+}
+.inner-one, .inner-two{
+    position: absolute;
+    top: 0;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    cursor: pointer;
+    background: #f10000;
+}
+
+.inner-two {
+   
+    background: #000;
+    right: -50px;
+    z-index: 1;
+}
+
+
+/* css for js class */
+.my-class.slide-left{
+    margin-left: -72%;
+    transition:  1s;
+}
+
+
+.fox-6.block-6{
+    display: block;
+    border-radius: 50%;
+    transition:  .5s;
+}
+
+.fox-7.block-7{
+    display: block;
+}
+
+
+.fox-8.block-8{
+    display: block; 
+}
+
+.fox-9.block-9{
+    display: block;
+}
+
+.fox-10.block-10{
+    display: block;
+    border-radius: 50%;
+}
+
+
+.fox-10.block-10 p{
+    color: #000;
+    transition:  .5s;
+}
